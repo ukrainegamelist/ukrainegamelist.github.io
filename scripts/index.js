@@ -5,9 +5,9 @@ const gameList =[
 
 const feed = document.getElementById("feed");
 
-for(let i=0; i<feed.length; i++){
+for(let i=0; i<gameList.length; i++){
 	let p=document.createElement("p");
-	p.textContent=feed[i];
+	p.textContent=gameList[i];
 	feed.appendChild(p);
 }
 
