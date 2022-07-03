@@ -2,8 +2,6 @@ const gameList =[
 "gra 1","gra 2"
 ];
 
-document.onload = showGameList;
-
 function showGameList()
 {
 	const feed = document.getElementById("feed");
@@ -15,4 +13,7 @@ function showGameList()
 		feed.appendChild(p);
 	}
 }
+
+document.onload = showGameList;
+
 alert("script is working!");
