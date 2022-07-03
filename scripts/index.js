@@ -1,5 +1,4 @@
 const gameList =[
-[
 "gra 1","gra 2"
 ];
 
