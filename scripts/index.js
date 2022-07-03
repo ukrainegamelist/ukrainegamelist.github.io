@@ -1,4 +1,4 @@
-
+alert("666 VULKANROFL");
 const gameList = [
 [
 "STONKS-9800: Stock Market Simulator",
