@@ -18,6 +18,6 @@ function showGameList()
 	alert("function showGameList() finished");
 }
 
-document.onload = showGameList;
+document.addEventListener("DOMContentLoaded", showGameList); 
 
 alert("script is working!");
