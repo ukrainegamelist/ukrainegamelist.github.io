@@ -24,6 +24,9 @@ function showGameList()
 	const jsonGameListFile = require('../games/uagames.json');
 	const jsonGameList = JSON.parse(jsonGameListFile);
 
+	alert(jsonGameListFile);
+	alert(jsonGameList);
+
 	const feed = document.getElementById("feed");
 	if(feed==null){
 		alert("error:cant find id:feed");
