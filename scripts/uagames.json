@@ -1,0 +1,60 @@
+{"gameList":[
+
+{
+"name":"STONKS-9800: Stock Market Simulator",
+"platforms":["windows","xbox one","ps4","ps5","nintendo switch"],
+"windows":["https://store.steampowered.com/app/1539140/STONKS9800_Stock_Market_Simulator/"],
+"genres":["economical","simulator"],
+},
+
+{
+"name":"Screaming Noppy",
+"platforms":["android"],
+"android":["https://play.google.com/store/apps/details?id=com.Alar.ScreamGoBro"],
+"genres":["arcade"],
+},
+
+{
+"name":"Farm and Mine",
+"platforms":["android","ios","windows","linux"],
+"android":["https://play.google.com/store/apps/details?id=com.airapport.farm.mine.idle.ludumdare48"],
+"ios":["https://apps.apple.com/us/app/farm-and-mine-deep-idle-ld48/id1564694016"],
+"windows":["https://airapport.itch.io/farm-and-mine"],
+"linux":["https://airapport.itch.io/farm-and-mine"],
+"genres":["simulator","resource manager","idle"],
+},
+
+{"name":"Evercraft Mechanic",
+"platforms":["android","ios"],
+"android":["https://play.google.com/store/apps/details?id=com.craft.scrap"],
+"ios":"["https://apps.apple.com/ua/app/evercraft-mechanic-online/id1525147030"],
+"genres":["simulator","sandbox"]
+},
+
+{"name":"Titan Chaser",
+"platforms":["windows","xbox","nintendo switch"],
+"windows":["https://store.steampowered.com/app/1290170/Titan_Chaser/"],
+"xbox":["https://www.xbox.com/en-us/games/store/Titan-Chaser/9N395HWTFH2Q"],
+"nintendo switch":["https://www.nintendo.com/store/products/titan-chaser-switch/"],
+"genres":["quest","adventure","surrealism","driving"],
+},
+
+{"name":"Farlanders",
+"platforms":["windows","macos","linux"],
+"windows":["https://store.steampowered.com/app/1318740/Farlanders/"],
+"macos":["https://store.steampowered.com/app/1318740/Farlanders/"],
+"linux":["https://store.steampowered.com/app/1318740/Farlanders/"],
+"genres":["strategy","space"]
+},
+
+{"name":"Grand Story",
+"platforms":["web","windows","macos","linux"],
+"web":["https://andriy-bychkovskyi.itch.io/grand-story"],
+"windows":["https://andriy-bychkovskyi.itch.io/grand-story"],
+"macos":["https://andriy-bychkovskyi.itch.io/grand-story"],
+"linux":["https://andriy-bychkovskyi.itch.io/grand-story"],
+"genres":["adventure","story"]
+}
+
+]}
+
