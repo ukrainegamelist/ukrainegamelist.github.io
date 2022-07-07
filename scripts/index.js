@@ -21,6 +21,9 @@ function pickLocalLanguage()
 
 function showGameList()
 {
+	fetch('https://jsonplaceholder.typicode.com/todos/1').then(result => result.json()).then((output) => {
+        alert(output);
+	})
 	const jsonGameListFile = require('./games/uagames.json');
 	const jsonGameList = JSON.parse(jsonGameListFile);
 
