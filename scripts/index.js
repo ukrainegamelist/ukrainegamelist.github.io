@@ -21,15 +21,11 @@ function pickLocalLanguage()
 
 function showGameList()
 {
-	fetch('https://ukrainegamelist.github.io/games/uagames.json').then(result => result.json()).then((output) => {
-	const maintitle = document.getElementById("maintitle");
-        maintitle.innerHTML=output;
-	});
 	const jsonGameListFile = require('./games/uagames.json');
 	const jsonGameList = JSON.parse(jsonGameListFile);
 
-	alert(jsonGameListFile);
-	alert(jsonGameList);
+	alert("1 "+jsonGameListFile);
+	alert("2 "+jsonGameList);
 
 	const feed = document.getElementById("feed");
 	if(feed==null){
