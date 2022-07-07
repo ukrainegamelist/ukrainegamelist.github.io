@@ -30,8 +30,8 @@ function showGameList()
 	}
 	for(let i=0; i<jsonGameList.gameList.length; i++){
 		var p = document.createElement("p")
-		var jsonGame = jsonGameList.gameList[i];
-		var text = document.createTextNode(jsonGame.name);
+		var jsonGame = jsonGameList["gameList"][i];
+		var text = document.createTextNode(jsonGame["name"]);
 		p.appendChild(text);
 		feed.appendChild(p);
 	}
