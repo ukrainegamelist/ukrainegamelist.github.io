@@ -21,7 +21,7 @@ function pickLocalLanguage()
 
 function showGameList()
 {
-	const jsonGameListFile = require('../games/uagames.json');
+	const jsonGameListFile = require('./games/uagames.json');
 	const jsonGameList = JSON.parse(jsonGameListFile);
 
 	alert(jsonGameListFile);
