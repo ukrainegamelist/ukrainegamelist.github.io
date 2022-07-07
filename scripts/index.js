@@ -31,7 +31,7 @@ function showGameList()
 	if(feed==null){
 		alert("error:cant find id:feed");
 	}
-	for(let i=0; i<jsonGameList.gameList.length; i++){
+	for(let i=0; i<jsonGameList["gameList"].length; i++){
 		var p = document.createElement("p")
 		var jsonGame = jsonGameList["gameList"][i];
 		var text = document.createTextNode(jsonGame["name"]);
